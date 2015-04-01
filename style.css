@@ -1,4 +1,15 @@
 /* This is the same with a few things added as the <style> tag I put in. */
+/*This is untested*/
+ /* Better HR tags https://css-tricks.com/examples/hrs/ */
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
 body {
 background-color: #F0F0F0;
 }
