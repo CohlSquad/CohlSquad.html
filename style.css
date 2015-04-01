@@ -1,0 +1,9 @@
+/* This is the same with a few things added as the <style> tag I put in. */
+body {
+background-color: #F0F0F0;
+}
+h1 { font-weight:normal; }
+h3 {
+text-shadow: 2px 3px 8px #FFFF00;
+}
+h3 { font-weight:normal; }
